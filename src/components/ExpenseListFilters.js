@@ -8,6 +8,8 @@ import {
   setStartDate,
   setEndDate
 } from "../actions/filters";
+import "react-dates/initialize";
+import "react-dates/lib/css/_datepicker.css";
 
 class ExpenseListFilters extends React.Component {
   state = {
@@ -52,6 +54,8 @@ class ExpenseListFilters extends React.Component {
           showClearDates={true}
           numberOfMonths={1}
           isOutsideRange={() => false}
+          startDateId="start"
+          endDateId="end"
         />
       </div>
     );
