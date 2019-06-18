@@ -11,17 +11,15 @@
     "heroku-postbuild": "npm run build:prod",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Bhanu-12/INDECISION-APP.git"
-  },
-  "author": "",
+  "repository": "(git+https://github.com/Bhanu-12/Expense-Manager.git)",
+  "author": "Bhanu-12 <Shrivastava1219@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Bhanu-12/INDECISION-APP/issues"
   },
   "homepage": "https://github.com/Bhanu-12/INDECISION-APP#readme",
   "dependencies": {
+    "@types/numeral": "0.0.25",
     "babel-cli": "^6.26.0",
     "babel-core": "6.25.0",
     "babel-loader": "7.1.1",
@@ -29,6 +27,7 @@
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "bad": "^0.10.0",
     "express": "^4.17.1",
     "firebase": "^6.2.0",
     "firebase-tools": "^7.0.0",
@@ -46,7 +45,7 @@
     "redux": "^4.0.1",
     "uuid": "^3.3.2",
     "validator": "^11.0.0",
-    "webpack-dev-server": "^3.7.1"
+    "webpack-dev-server": "^3.7.2"
   },
   "devDependencies": {
     "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
