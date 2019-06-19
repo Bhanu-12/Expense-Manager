@@ -2,6 +2,7 @@
 
 const expensesReducerDefaultState = [];
 //... -> spread operator
+
 export default (state = expensesReducerDefaultState, action) => {
   switch (action.type) {
     case "ADD_EXPENSE":
@@ -19,6 +20,8 @@ export default (state = expensesReducerDefaultState, action) => {
           return expense;
         }
       });
+    case "SET_EXPENSES":
+      return action.expenses;
     default:
       return state;
   }
