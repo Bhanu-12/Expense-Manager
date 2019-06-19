@@ -16,23 +16,49 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 
 var database = firebase.database();
-database.ref().set({
-    like: "5",
-    location: {
-      city: "Delhi",
-      state: "delhi"
-    }
-  });
 
-database.ref("like").set(46).then(
-    success => {
-      console.log("success");
-    },
-    error => {
-      console.log("error");
-    }
-  );
-database.ref("attributes").set({
-  height: 23,
-  weight: 78
-});
+export { firebase, database as default };
+
+// database
+//   .ref()
+//   .set({
+//     like: "5",
+//     location: {
+//       city: "Delhi",
+//       state: "delhi"
+//     },
+//     isSingle: true
+//   })
+//   .then(
+//     success => {
+//       console.log("success");
+//     },
+//     error => {
+//       console.log("error");
+//     }
+//   );
+
+// database.ref("like").set(46).then(
+//     success => {
+//       console.log("success");
+//     },
+//     error => {
+//       console.log("error");
+//     }
+//   );
+// database.ref("attributes").set({
+//   height: 23,
+//   weight: 78
+// });
+
+// database
+//   .ref("like")
+//   .remove()
+//   .then(
+//     success => {
+//       console.log("success");
+//     },
+//     error => {
+//       console.log("error");
+//     }
+//   );
