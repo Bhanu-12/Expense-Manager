@@ -7,7 +7,7 @@ process.env.NODE_ENV = process.env.NODE_ENV || "development";
 if (process.env.NODE_ENV === "development") {
   require("dotenv").config({ path: ".env.development" });
 }
-console.log("p->", process.env.FIREBASE_API_KEY);
+// console.log("p->", process.env.FIREBASE_API_KEY);
 module.exports = env => {
   const isProduction = env === "production";
   const CSSExtract = new ExtractTextPlugin("styles.css");
