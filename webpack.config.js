@@ -12,9 +12,9 @@ module.exports = env => {
   const isProduction = env === "production";
   const CSSExtract = new ExtractTextPlugin("styles.css");
   console.log(process.env.NODE_ENV);
-  
+
   return {
-    entry: "./src/app.js",
+    entry: ["./src/app.js", "babel-polyfill"],
     output: {
       path: path.join(__dirname, "public", "dist"),
       filename: "bundle.js"
