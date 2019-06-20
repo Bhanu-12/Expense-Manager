@@ -8,7 +8,7 @@
 
 # DEMO
 
-##### Login using you google account.
+##### Login using your google account.
 
 ![Screenshot (101)](https://user-images.githubusercontent.com/42304018/59845121-31a99000-937a-11e9-8255-acc76e40e727.png)
 
