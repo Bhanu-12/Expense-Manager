@@ -7,7 +7,8 @@
 - [Try It Here](https://expense-manager-webapp.herokuapp.com/dashboard).
 
 # DEMO
-
+```
+```
 ![Screenshot (101)](https://user-images.githubusercontent.com/42304018/59845121-31a99000-937a-11e9-8255-acc76e40e727.png)
 ![Screenshot (102)](https://user-images.githubusercontent.com/42304018/59845122-32422680-937a-11e9-8253-bfba2d565d20.png)
 ![Screenshot (103)](https://user-images.githubusercontent.com/42304018/59845124-32dabd00-937a-11e9-9c5a-de8d791b79d0.png)
