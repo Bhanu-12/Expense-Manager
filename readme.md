@@ -26,28 +26,30 @@
 
 ---
 
-![Screenshot (104)](https://user-images.githubusercontent.com/42304018/59845125-33735380-937a-11e9-8b0b-5a934a9cbafd.png)
-
----
-
 ##### Expense added.
 
-![Screenshot (105)](https://user-images.githubusercontent.com/42304018/59845126-33735380-937a-11e9-8b97-065d4db6f43a.png)
+![Screenshot (104)](https://user-images.githubusercontent.com/42304018/59845125-33735380-937a-11e9-8b0b-5a934a9cbafd.png)
 
 ---
 
 ##### Search by name.
 
-![Screenshot (106)](https://user-images.githubusercontent.com/42304018/59845127-33735380-937a-11e9-9e19-c5586ba4e197.png)
+![Screenshot (105)](https://user-images.githubusercontent.com/42304018/59845126-33735380-937a-11e9-8b97-065d4db6f43a.png)
 
 ---
 
 ##### Sort by Date.
 
+![Screenshot (106)](https://user-images.githubusercontent.com/42304018/59845127-33735380-937a-11e9-9e19-c5586ba4e197.png)
+
+---
+
+##### Sort by Amount.
+
 ![Screenshot (107)](https://user-images.githubusercontent.com/42304018/59845128-340bea00-937a-11e9-9868-3ef51239b25e.png)
 
 ---
 
-##### Sort by amount.
+##### Removing Expenses.
 
 ![Screenshot (108)](https://user-images.githubusercontent.com/42304018/59845129-340bea00-937a-11e9-88c2-424400d4b02f.png)
